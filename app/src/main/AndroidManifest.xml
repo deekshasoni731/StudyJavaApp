@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.siddiqui.myapplication">
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/homepage"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="Learn Java"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Section"
+            android:layout_gravity="center_vertical"
+            android:label="Programing"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+
+        <activity android:name=".JavaPrograming" />
+        <activity android:name=".Helloworld" />
+        <activity android:name=".JavaclassExample" />
+        <activity android:name=".circuleArea" />
+        <activity android:name=".circulePerimeter" />
+        <activity android:name=".rectangularArea" />
+        <activity android:name=".rectangularPerimeter" />
+        <activity android:name=".evenOdd" />
+        <activity android:name=".largestSmallest" />
+        <activity android:name=".factorial" />
+        <activity android:name=".reverce" />
+        <activity android:name=".swapNumber" />
+        <activity android:name=".armstrongnumber" />
+        <activity android:name=".palidrome" />
+        <activity android:name=".atternprogram" />
+        <activity android:name=".arraystring" />
+        <activity android:name=".Oops" />
+        <activity android:name=".Sort" />
+        <activity android:name=".Thread" />
+        <activity android:name=".Jdbc" />
+        <activity android:name=".Exeption" />
+        <activity android:name=".Servlet" />
+        <activity android:name=".Jsp" />
+        <activity android:name=".Hibernate" />
+        <activity android:name=".Struts" />
+        <activity android:name=".Ptrn1" />
+        <activity android:name=".Ptrn2" />
+        <activity android:name=".Ptrn3" />
+        <activity android:name=".Ptrn4" />
+        <activity android:name=".Ptrn5" />
+        <activity android:name=".Ptrn6" />
+        <activity android:name=".Ptrn7" />
+        <activity android:name=".PtrnProgram1" />
+        <activity android:name=".PtrnProgram2" />
+        <activity android:name=".PtrnProgram3" />
+        <activity android:name=".PtrnProgram4" />
+        <activity android:name=".PtrnProgram5" />
+        <activity android:name=".PtrnProgram6" />
+        <activity android:name=".PtnrProgram7" />
+        <activity android:name=".Sort_Array_search" />
+        <activity android:name=".Array_reverce" />
+        <activity android:name=".Maxim_Min_Eli" />
+        <activity android:name=".Merge_Array" />
+        <activity android:name=".Remove_Eliment" />
+        <activity android:name=".Remove_into_anotherarray" />
+        <activity android:name=".StringinArray" />
+        <activity android:name=".CompireArray" />
+        <activity android:name=".DimentionArray_2" />
+        <activity android:name=".StringCmpre" />
+        <activity android:name=".CancatenationString" />
+        <activity android:name=".BufferString" />
+        <activity android:name=".StringReverce" />
+        <activity android:name=".Object_Array" />
+        <activity android:name=".OverloadingExample" />
+        <activity android:name=".OverridingInJava" />
+        <activity android:name=".ExeptionHandling" />
+        <activity android:name=".ConstructorOverloading" />
+        <activity android:name=".PrivetConstractor" />
+        <activity android:name=".SuperKeyword" />
+        <activity android:name=".AbstractInterface" />
+        <activity android:name=".AbstractMethod" />
+        <activity android:name=".StaticMethod" />
+        <activity android:name=".MultipleStatic" />
+        <activity android:name=".BubbleSort" />
+        <activity android:name=".SelectionSort" />
+        <activity android:name=".InsertionSort" />
+        <activity android:name=".QuickSort" />
+        <activity android:name=".MergeSort" />
+        <activity android:name=".CreateTable" />
+        <activity android:name=".InsertTable" />
+        <activity android:name=".SelectTable" />
+        <activity android:name=".UpdateTable" />
+        <activity android:name=".DeleteTable" />
+
+
+        <activity android:name=".InterVeiwQuestion"
+            android:layout_gravity="center_vertical"
+            android:label="InterVeiw Question"
+            android:parentActivityName=".MainActivity">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
+
+</activity>
+        <activity android:name=".ArticalMatterial"
+
+            android:layout_gravity="center_vertical"
+            android:label="Articals"
+            android:parentActivityName=".MainActivity">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
+
+
+        </activity>
+
+        <activity android:name=".ObjectandClassInJava" />
+        <activity android:name=".ConstructorInJava" />
+        <activity android:name=".JavaStaticKeyword" />
+        <activity android:name=".ThiskeywordInJava" />
+        <activity android:name=".SuperKeywordJava" />
+        <activity android:name=".FinalKeyWordJava" />
+        <activity android:name=".JavaArrayArticles" />
+        <activity android:name=".HibernateFramework" />
+        <activity android:name=".Struts2" />
+        <activity android:name=".SpringFramework"></activity><!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>
